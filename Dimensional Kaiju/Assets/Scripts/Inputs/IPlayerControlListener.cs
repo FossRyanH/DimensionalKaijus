@@ -6,5 +6,5 @@ public interface IPlayerControlListener
     void Interact();
     void Cancel();
     void OpenMenu();
-    void Sprint();
+    void Sprint(bool isSprinting);
 }

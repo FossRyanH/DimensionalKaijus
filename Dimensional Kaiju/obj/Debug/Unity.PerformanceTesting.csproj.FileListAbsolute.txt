@@ -1,0 +1,4 @@
+D:\Repos\DimensionalKaijus\Dimensional Kaiju\obj\Debug\Unity.PerformanceTesting.csproj.AssemblyReference.cache
+D:\Repos\DimensionalKaijus\Dimensional Kaiju\obj\Debug\Unity.PerformanceTesting.csproj.CoreCompileInputs.cache
+D:\Repos\DimensionalKaijus\Dimensional Kaiju\obj\Debug\Unity.PerformanceTesting.dll
+D:\Repos\DimensionalKaijus\Dimensional Kaiju\obj\Debug\Unity.PerformanceTesting.pdb

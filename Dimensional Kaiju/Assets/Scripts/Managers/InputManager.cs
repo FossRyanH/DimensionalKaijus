@@ -26,9 +26,13 @@ public class InputManager : Singleton<InputManager>
         {
             _gameInput = new GameInputs();
             #region PlayerControls
-            // _gameInput.Player.Move.performed 
+            _gameInput.Player.Move.performed += (ctx) => playerInputs.HandleMovement(ctx.ReadValue<Vector2>());
+            _gameInput.Player.Sprint.started += (ctx) => playerInputs.HandleSprint(true);
+            _gameInput.Player.Sprint.canceled += (ctx) => playerInputs.HandleSprint(false);
+            _actionMaps.Add(GameInputType.PlayerControl, _gameInput.Player);
             #endregion
         }
+        _gameInput.Enable();
     }
 }
 

@@ -1,0 +1,4 @@
+D:\Repos\DimensionalKaijus\Dimensional Kaiju\obj\Debug\Unity.Collections.csproj.AssemblyReference.cache
+D:\Repos\DimensionalKaijus\Dimensional Kaiju\obj\Debug\Unity.Collections.csproj.CoreCompileInputs.cache
+D:\Repos\DimensionalKaijus\Dimensional Kaiju\obj\Debug\Unity.Collections.dll
+D:\Repos\DimensionalKaijus\Dimensional Kaiju\obj\Debug\Unity.Collections.pdb
