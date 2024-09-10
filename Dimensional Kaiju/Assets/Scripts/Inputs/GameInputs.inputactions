@@ -24,15 +24,6 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Cancel",
-                    "type": "Button",
-                    "id": "c7691bc5-6aef-4d71-8537-194aba8fab0a",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "OpenMenu",
                     "type": "Button",
                     "id": "c6c14b8f-be94-4ef2-8203-fbac4c183370",
@@ -230,12 +221,12 @@
                 },
                 {
                     "name": "",
-                    "id": "17ad4bdd-8979-4146-abd1-09e2aa41e454",
-                    "path": "<Gamepad>/buttonSouth",
+                    "id": "8c43fb4b-5097-4f05-a588-5615032414d1",
+                    "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Controller",
-                    "action": "Cancel",
+                    "groups": ";KeyBoardMouse",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -252,11 +243,33 @@
                 },
                 {
                     "name": "",
+                    "id": "b0ec2c94-b562-4620-bbcc-72a518394112",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "94e9aca0-6661-4d8b-9250-8e3a4b9ffcd0",
                     "path": "<Gamepad>/buttonWest",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Controller",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "39bc8c24-40b9-453e-915b-a5859f724b9b",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Sprint",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -309,6 +322,17 @@
                     "name": "",
                     "id": "e76fe644-2d8f-4e9b-ab10-6ef0fd4ad596",
                     "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accept",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ef8b3d2-2832-4f05-a981-e4dc74f96d1f",
+                    "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -494,8 +518,30 @@
                 },
                 {
                     "name": "",
+                    "id": "7d5e0fd9-93fa-4e2b-929d-4385984d0318",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cancel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "327450de-a16d-454d-b26c-d879729c5f7c",
                     "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CloseMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "227a554b-6e2f-4186-b72f-72890d036b8e",
+                    "path": "<Keyboard>/tab",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

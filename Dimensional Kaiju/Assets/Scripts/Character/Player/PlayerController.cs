@@ -71,9 +71,7 @@ public class PlayerController : MonoBehaviour, IPlayerControlListener
     }
 
     public void Interact() {}
-
-    public void Cancel() {}
-
+    
     public void OpenMenu() {}
 
     public void Sprint(bool isSprinting)
