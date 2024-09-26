@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Dimensional Kaiju.sln"
+    "dotnet.defaultSolution": "Dimensional Kaiju.sln",
+    "git.ignoreLimitWarning": true
 }
