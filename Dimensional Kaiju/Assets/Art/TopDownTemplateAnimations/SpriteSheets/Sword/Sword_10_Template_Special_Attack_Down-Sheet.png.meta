@@ -132,7 +132,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -835,7 +835,35 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sword_10_Template_Special_Attack_Down-Sheet_0: -4974615788729051638
+      Sword_10_Template_Special_Attack_Down-Sheet_1: 6368303612286471316
+      Sword_10_Template_Special_Attack_Down-Sheet_10: -5735285372041835429
+      Sword_10_Template_Special_Attack_Down-Sheet_11: -1342704001494582160
+      Sword_10_Template_Special_Attack_Down-Sheet_12: -8107570837906507827
+      Sword_10_Template_Special_Attack_Down-Sheet_13: 6499143637340376186
+      Sword_10_Template_Special_Attack_Down-Sheet_14: -5858048507599285555
+      Sword_10_Template_Special_Attack_Down-Sheet_15: -5991373506107354325
+      Sword_10_Template_Special_Attack_Down-Sheet_16: -3766212982553917304
+      Sword_10_Template_Special_Attack_Down-Sheet_17: -3326286490498207314
+      Sword_10_Template_Special_Attack_Down-Sheet_18: -4169486445037744140
+      Sword_10_Template_Special_Attack_Down-Sheet_19: 3824770117379904886
+      Sword_10_Template_Special_Attack_Down-Sheet_2: 5355297534256897636
+      Sword_10_Template_Special_Attack_Down-Sheet_20: -5084816027880870147
+      Sword_10_Template_Special_Attack_Down-Sheet_21: 7715767005696454780
+      Sword_10_Template_Special_Attack_Down-Sheet_22: 5616472955004243817
+      Sword_10_Template_Special_Attack_Down-Sheet_23: 3856894096487649172
+      Sword_10_Template_Special_Attack_Down-Sheet_24: -5596443242465778456
+      Sword_10_Template_Special_Attack_Down-Sheet_25: 5663852845364611761
+      Sword_10_Template_Special_Attack_Down-Sheet_26: 3246525732254522673
+      Sword_10_Template_Special_Attack_Down-Sheet_27: -6831579926838347398
+      Sword_10_Template_Special_Attack_Down-Sheet_3: -6001195112468980650
+      Sword_10_Template_Special_Attack_Down-Sheet_4: 6818705986149366684
+      Sword_10_Template_Special_Attack_Down-Sheet_5: 3161531554061425136
+      Sword_10_Template_Special_Attack_Down-Sheet_6: 5512634571071267226
+      Sword_10_Template_Special_Attack_Down-Sheet_7: 1630870193222224255
+      Sword_10_Template_Special_Attack_Down-Sheet_8: 6370519286323450644
+      Sword_10_Template_Special_Attack_Down-Sheet_9: 7400108730332597247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

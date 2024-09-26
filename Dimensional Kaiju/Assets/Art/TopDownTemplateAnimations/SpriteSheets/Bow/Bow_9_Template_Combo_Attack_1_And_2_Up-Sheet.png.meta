@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -435,7 +435,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bow_9_Template_Combo_Attack_1_And_2_Up-Sheet_0: 8903331902079951862
+      Bow_9_Template_Combo_Attack_1_And_2_Up-Sheet_1: 924406914982137043
+      Bow_9_Template_Combo_Attack_1_And_2_Up-Sheet_10: -6368374255662551484
+      Bow_9_Template_Combo_Attack_1_And_2_Up-Sheet_11: -6054813994787863327
+      Bow_9_Template_Combo_Attack_1_And_2_Up-Sheet_2: -7544589509977035970
+      Bow_9_Template_Combo_Attack_1_And_2_Up-Sheet_3: -1630835779630934209
+      Bow_9_Template_Combo_Attack_1_And_2_Up-Sheet_4: -3239217645300714087
+      Bow_9_Template_Combo_Attack_1_And_2_Up-Sheet_5: -5948415614905566780
+      Bow_9_Template_Combo_Attack_1_And_2_Up-Sheet_6: -9088892483439353844
+      Bow_9_Template_Combo_Attack_1_And_2_Up-Sheet_7: -4766451066527878415
+      Bow_9_Template_Combo_Attack_1_And_2_Up-Sheet_8: 2377461426273930711
+      Bow_9_Template_Combo_Attack_1_And_2_Up-Sheet_9: -3647390997381408082
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

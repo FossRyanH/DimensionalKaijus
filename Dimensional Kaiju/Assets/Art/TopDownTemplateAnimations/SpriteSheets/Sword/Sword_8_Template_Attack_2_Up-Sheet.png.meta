@@ -90,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -485,7 +485,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sword_8_Template_Attack_2_Up-Sheet_0: 1964006928348906682
+      Sword_8_Template_Attack_2_Up-Sheet_1: 1979592379875789643
+      Sword_8_Template_Attack_2_Up-Sheet_10: -5486767323233163701
+      Sword_8_Template_Attack_2_Up-Sheet_11: 7861919573377240325
+      Sword_8_Template_Attack_2_Up-Sheet_12: 343748184251773552
+      Sword_8_Template_Attack_2_Up-Sheet_13: 2266509375370086270
+      Sword_8_Template_Attack_2_Up-Sheet_2: -1104934256342487519
+      Sword_8_Template_Attack_2_Up-Sheet_3: 464930377330637939
+      Sword_8_Template_Attack_2_Up-Sheet_4: -3665355441905847748
+      Sword_8_Template_Attack_2_Up-Sheet_5: 6913757996791936180
+      Sword_8_Template_Attack_2_Up-Sheet_6: -3618080690318056600
+      Sword_8_Template_Attack_2_Up-Sheet_7: 8197627323522149671
+      Sword_8_Template_Attack_2_Up-Sheet_8: 7520619506948631714
+      Sword_8_Template_Attack_2_Up-Sheet_9: -2335770974969852843
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

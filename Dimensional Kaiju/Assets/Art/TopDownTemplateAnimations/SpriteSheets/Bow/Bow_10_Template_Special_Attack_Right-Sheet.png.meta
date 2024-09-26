@@ -292,7 +292,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -306,7 +306,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -2285,7 +2285,93 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bow_10_Template_Special_Attack_Right-Sheet_0: -3418895168434545781
+      Bow_10_Template_Special_Attack_Right-Sheet_1: 6945413581175426638
+      Bow_10_Template_Special_Attack_Right-Sheet_10: -7995799941873512284
+      Bow_10_Template_Special_Attack_Right-Sheet_11: 8748131770711805316
+      Bow_10_Template_Special_Attack_Right-Sheet_12: -1984444579154690180
+      Bow_10_Template_Special_Attack_Right-Sheet_13: 523421122158494425
+      Bow_10_Template_Special_Attack_Right-Sheet_14: 9146654069155397109
+      Bow_10_Template_Special_Attack_Right-Sheet_15: -1573424015670925455
+      Bow_10_Template_Special_Attack_Right-Sheet_16: -3172651351122550951
+      Bow_10_Template_Special_Attack_Right-Sheet_17: 4448190823429123134
+      Bow_10_Template_Special_Attack_Right-Sheet_18: -7447049049479371398
+      Bow_10_Template_Special_Attack_Right-Sheet_19: -2876664897996405229
+      Bow_10_Template_Special_Attack_Right-Sheet_2: -3299185298068951586
+      Bow_10_Template_Special_Attack_Right-Sheet_20: 7756541464195988589
+      Bow_10_Template_Special_Attack_Right-Sheet_21: -2650278975671957424
+      Bow_10_Template_Special_Attack_Right-Sheet_22: 4675363488183891816
+      Bow_10_Template_Special_Attack_Right-Sheet_23: -1075971670020423702
+      Bow_10_Template_Special_Attack_Right-Sheet_24: -1998936997900967959
+      Bow_10_Template_Special_Attack_Right-Sheet_25: -1525710004734251785
+      Bow_10_Template_Special_Attack_Right-Sheet_26: 5000807570334301024
+      Bow_10_Template_Special_Attack_Right-Sheet_27: -3462573233573349517
+      Bow_10_Template_Special_Attack_Right-Sheet_28: -6569038917477408330
+      Bow_10_Template_Special_Attack_Right-Sheet_29: -8961805323682954296
+      Bow_10_Template_Special_Attack_Right-Sheet_3: -245460635267482546
+      Bow_10_Template_Special_Attack_Right-Sheet_30: 3970994615925822893
+      Bow_10_Template_Special_Attack_Right-Sheet_31: 1166906290909875451
+      Bow_10_Template_Special_Attack_Right-Sheet_32: -4298376428282941848
+      Bow_10_Template_Special_Attack_Right-Sheet_33: -2254156361530929953
+      Bow_10_Template_Special_Attack_Right-Sheet_34: 8543728016380133256
+      Bow_10_Template_Special_Attack_Right-Sheet_35: -2294840668602775631
+      Bow_10_Template_Special_Attack_Right-Sheet_36: -4073037153743712187
+      Bow_10_Template_Special_Attack_Right-Sheet_37: -3767560750414478528
+      Bow_10_Template_Special_Attack_Right-Sheet_38: -2030305021989292390
+      Bow_10_Template_Special_Attack_Right-Sheet_39: -4032792766500301278
+      Bow_10_Template_Special_Attack_Right-Sheet_4: 7510444006158420333
+      Bow_10_Template_Special_Attack_Right-Sheet_40: 6236972841638441227
+      Bow_10_Template_Special_Attack_Right-Sheet_41: -3822531257988103292
+      Bow_10_Template_Special_Attack_Right-Sheet_42: -3107976825061770931
+      Bow_10_Template_Special_Attack_Right-Sheet_43: 2744438344610505181
+      Bow_10_Template_Special_Attack_Right-Sheet_44: 6960471909766603451
+      Bow_10_Template_Special_Attack_Right-Sheet_45: 4277928642639159166
+      Bow_10_Template_Special_Attack_Right-Sheet_46: -6013261797676085492
+      Bow_10_Template_Special_Attack_Right-Sheet_47: 894868741781537292
+      Bow_10_Template_Special_Attack_Right-Sheet_48: 5637263847156162235
+      Bow_10_Template_Special_Attack_Right-Sheet_49: -1248566124719762886
+      Bow_10_Template_Special_Attack_Right-Sheet_5: 6622521546085376408
+      Bow_10_Template_Special_Attack_Right-Sheet_50: -57358196231714583
+      Bow_10_Template_Special_Attack_Right-Sheet_51: 3672236872574620911
+      Bow_10_Template_Special_Attack_Right-Sheet_52: -5205752510488775297
+      Bow_10_Template_Special_Attack_Right-Sheet_53: -1613464870734687228
+      Bow_10_Template_Special_Attack_Right-Sheet_54: -2649665791581244721
+      Bow_10_Template_Special_Attack_Right-Sheet_55: -2045158699124926869
+      Bow_10_Template_Special_Attack_Right-Sheet_56: -5627994587363096815
+      Bow_10_Template_Special_Attack_Right-Sheet_57: 5460876137687110469
+      Bow_10_Template_Special_Attack_Right-Sheet_58: -456440949810682620
+      Bow_10_Template_Special_Attack_Right-Sheet_59: -8446604685108632108
+      Bow_10_Template_Special_Attack_Right-Sheet_6: 4813714974409660729
+      Bow_10_Template_Special_Attack_Right-Sheet_60: 4713916175300039391
+      Bow_10_Template_Special_Attack_Right-Sheet_61: -288798783589466443
+      Bow_10_Template_Special_Attack_Right-Sheet_62: 8615364130478885842
+      Bow_10_Template_Special_Attack_Right-Sheet_63: -1925647287605284748
+      Bow_10_Template_Special_Attack_Right-Sheet_64: 2173565123259494285
+      Bow_10_Template_Special_Attack_Right-Sheet_65: 1341649124227103782
+      Bow_10_Template_Special_Attack_Right-Sheet_66: -6587367078966278920
+      Bow_10_Template_Special_Attack_Right-Sheet_67: -776599644895474389
+      Bow_10_Template_Special_Attack_Right-Sheet_68: -8746992019858162599
+      Bow_10_Template_Special_Attack_Right-Sheet_69: 3728613144113962492
+      Bow_10_Template_Special_Attack_Right-Sheet_7: 4865489370782997691
+      Bow_10_Template_Special_Attack_Right-Sheet_70: -7469692075853730093
+      Bow_10_Template_Special_Attack_Right-Sheet_71: -6902609609580758298
+      Bow_10_Template_Special_Attack_Right-Sheet_72: 7363971331814787354
+      Bow_10_Template_Special_Attack_Right-Sheet_73: -4107744948195579627
+      Bow_10_Template_Special_Attack_Right-Sheet_74: -3371277752255886475
+      Bow_10_Template_Special_Attack_Right-Sheet_75: 5097109912522537265
+      Bow_10_Template_Special_Attack_Right-Sheet_76: 5628278725957952646
+      Bow_10_Template_Special_Attack_Right-Sheet_77: -6861707598003294563
+      Bow_10_Template_Special_Attack_Right-Sheet_78: -1667432551379629250
+      Bow_10_Template_Special_Attack_Right-Sheet_79: 5869788700745288306
+      Bow_10_Template_Special_Attack_Right-Sheet_8: 2795974374741438429
+      Bow_10_Template_Special_Attack_Right-Sheet_80: 3461583137887741659
+      Bow_10_Template_Special_Attack_Right-Sheet_81: 4281295483952834498
+      Bow_10_Template_Special_Attack_Right-Sheet_82: -254011542856260616
+      Bow_10_Template_Special_Attack_Right-Sheet_83: -7347410437944210444
+      Bow_10_Template_Special_Attack_Right-Sheet_84: -2757799207689105280
+      Bow_10_Template_Special_Attack_Right-Sheet_85: -8789319140991738103
+      Bow_10_Template_Special_Attack_Right-Sheet_9: -8358962305773016577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

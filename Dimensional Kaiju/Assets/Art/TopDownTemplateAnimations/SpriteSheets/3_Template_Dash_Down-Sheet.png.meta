@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3_Template_Dash_Down-Sheet_0: 409147209788196481
+      3_Template_Dash_Down-Sheet_1: -6627773478108019905
+      3_Template_Dash_Down-Sheet_2: 4923217999764096630
+      3_Template_Dash_Down-Sheet_3: -5858348497580675832
+      3_Template_Dash_Down-Sheet_4: 1185291241115369637
+      3_Template_Dash_Down-Sheet_5: -8383437962814110021
+      3_Template_Dash_Down-Sheet_6: 4983149468090109559
+      3_Template_Dash_Down-Sheet_7: -2620867683065826599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

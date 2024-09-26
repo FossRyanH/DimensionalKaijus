@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bow_1_Template_Idle_Down-Sheet_0: 5451222007932187226
+      Bow_1_Template_Idle_Down-Sheet_1: -4243251726865933420
+      Bow_1_Template_Idle_Down-Sheet_2: -5227323899379868927
+      Bow_1_Template_Idle_Down-Sheet_3: 6629964514552282126
+      Bow_1_Template_Idle_Down-Sheet_4: -2174040555180896244
+      Bow_1_Template_Idle_Down-Sheet_5: 3010496093361466572
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

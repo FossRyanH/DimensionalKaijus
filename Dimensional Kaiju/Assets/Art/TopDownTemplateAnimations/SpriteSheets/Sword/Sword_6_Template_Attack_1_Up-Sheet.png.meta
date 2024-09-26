@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -435,7 +435,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sword_6_Template_Attack_1_Up-Sheet_0: -2013563565338591839
+      Sword_6_Template_Attack_1_Up-Sheet_1: -7693412774662288773
+      Sword_6_Template_Attack_1_Up-Sheet_10: 627739494350212392
+      Sword_6_Template_Attack_1_Up-Sheet_11: -867020315334478329
+      Sword_6_Template_Attack_1_Up-Sheet_2: -5546587655014254620
+      Sword_6_Template_Attack_1_Up-Sheet_3: 7516856002432490954
+      Sword_6_Template_Attack_1_Up-Sheet_4: 8416775235347434321
+      Sword_6_Template_Attack_1_Up-Sheet_5: -7463644148428463420
+      Sword_6_Template_Attack_1_Up-Sheet_6: 808253724298762130
+      Sword_6_Template_Attack_1_Up-Sheet_7: 1423439859957710661
+      Sword_6_Template_Attack_1_Up-Sheet_8: -4735984590907241564
+      Sword_6_Template_Attack_1_Up-Sheet_9: -8540405225116969111
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

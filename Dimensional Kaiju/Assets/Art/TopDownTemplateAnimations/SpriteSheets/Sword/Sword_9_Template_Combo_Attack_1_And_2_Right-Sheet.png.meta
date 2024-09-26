@@ -126,7 +126,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -785,7 +785,33 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_0: 3364669204715141350
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_1: -5016753263545885436
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_10: -5802014392712557311
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_11: 69289534957624159
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_12: -4432280144373318269
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_13: -6396171229370316774
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_14: 1521959042593751662
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_15: -8177862007811817290
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_16: -6390895687191898375
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_17: 1518604669968468304
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_18: -5260242481629463798
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_19: 1258274665499397171
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_2: -4179884708360195822
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_20: -456107969332879038
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_21: 2275614392875579915
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_22: -8814720201236498154
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_23: 5975798045039672423
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_24: 7822160230759887259
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_25: 4135260789781874282
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_3: 3194277957086734434
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_4: -1987505617024123138
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_5: -8094164030397929017
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_6: 5666877495926821703
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_7: -401469344190363613
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_8: -8818005184596996189
+      Sword_9_Template_Combo_Attack_1_And_2_Right-Sheet_9: 8906676702263794538
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sword_2_Template_Run_Right-Sheet_0: 7456846828344460136
+      Sword_2_Template_Run_Right-Sheet_1: 399905736819416236
+      Sword_2_Template_Run_Right-Sheet_2: 3746929271759818600
+      Sword_2_Template_Run_Right-Sheet_3: 4774573203633032886
+      Sword_2_Template_Run_Right-Sheet_4: -4814251514511229445
+      Sword_2_Template_Run_Right-Sheet_5: -967159099653026604
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
