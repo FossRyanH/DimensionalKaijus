@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: 4df627855bed37b42bf7addc49c4f6fd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_0
+    originalName: 
+    pivot: {x: 0.33333334, y: -1.5142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 157
+      width: 15
+      height: 35
+    spriteID: d7994b8763fd5e04b8b65fca76673cf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 157}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_1
+    originalName: 
+    pivot: {x: 0.2631579, y: -1.6060606}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 116
+      width: 19
+      height: 33
+    spriteID: 94e92cdcbd0856e48be6f6b6a85786d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 116}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_2
+    originalName: 
+    pivot: {x: 0.11111111, y: -2.65}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 116
+      width: 27
+      height: 20
+    spriteID: a1def499fc5390d41a1cffc54e714e71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 116}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_3
+    originalName: 
+    pivot: {x: 0.0625, y: -2.9444444}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 89
+      width: 32
+      height: 18
+    spriteID: cbe9d678003d78c4ea08be4eca10e43f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 89}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_4
+    originalName: 
+    pivot: {x: 0.4385965, y: -1.1041667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 57
+      height: 48
+    spriteID: fffe1dc15d0254e418c4306dd3514d98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_5
+    originalName: 
+    pivot: {x: 0.45614034, y: -1.1041667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 4
+      width: 57
+      height: 48
+    spriteID: 6ef87229c4c51c049bb18d714537f2cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 4}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_6
+    originalName: 
+    pivot: {x: 0.5102041, y: -1.1041667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 4
+      width: 49
+      height: 48
+    spriteID: 5520dde911e1ee3469298133f537c2ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 4}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_7
+    originalName: 
+    pivot: {x: 0.8888889, y: -1.1041667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 60
+      width: 27
+      height: 48
+    spriteID: 2505b51a87bec1d479a2193462fd74a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 60}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_8
+    originalName: 
+    pivot: {x: 0.8928572, y: -2.65}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 31
+      y: 116
+      width: 28
+      height: 20
+    spriteID: e49fa450c7c66ed4fb067d3e1f0904ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 31, y: 116}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_9
+    originalName: 
+    pivot: {x: 0.9333334, y: -2.9444444}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 116
+      width: 30
+      height: 18
+    spriteID: 93a8d32440f5b5843a2542f4511eaed4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 116}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_10
+    originalName: 
+    pivot: {x: 0.5614035, y: -1.1041667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 134
+      y: 4
+      width: 57
+      height: 48
+    spriteID: e2e045490b54f3845b524dc4f171bcd0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 134, y: 4}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_11
+    originalName: 
+    pivot: {x: 0.55357146, y: -1.1041667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 60
+      width: 56
+      height: 48
+    spriteID: 8b6bc1926ff60c548b1e7644c13a477e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 60}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_12
+    originalName: 
+    pivot: {x: 0.48979592, y: -1.1041667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 60
+      width: 49
+      height: 48
+    spriteID: 92d1824f6ee2d5f4594ecf9d5afa2ad6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 60}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_13
+    originalName: 
+    pivot: {x: 0.107142866, y: -1.1041667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 60
+      width: 28
+      height: 48
+    spriteID: bcb2a4505a423eb44ab38ad3c4850e42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 60}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_14
+    originalName: 
+    pivot: {x: 0.107142866, y: -2.7894738}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 116
+      width: 28
+      height: 19
+    spriteID: cfc8f0115cd071f47bed5b02066a4ff4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 116}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_15
+    originalName: 
+    pivot: {x: 0.16129032, y: -2.5238097}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 60
+      width: 31
+      height: 21
+    spriteID: 27f264546b2fd024286d225534d3adee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 60}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_16
+    originalName: 
+    pivot: {x: 0.19999999, y: -2.409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 116
+      width: 25
+      height: 22
+    spriteID: 16ab99aef9580a14b8bd2017f7cd206f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 116}
+  - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_17
+    originalName: 
+    pivot: {x: 0.3125, y: -1.5142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 157
+      width: 16
+      height: 35
+    spriteID: ef32d9e96ebb2c64aac8cc77e5c06c1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 157}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1933881383
+    name: Sword_9_Template_Combo_Attack_1_And_2_Up
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 59
+        y: 53
+        width: 15
+        height: 35
+      spriteId: d7994b8763fd5e04b8b65fca76673cf3
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 59
+        y: 53
+        width: 19
+        height: 33
+      spriteId: 94e92cdcbd0856e48be6f6b6a85786d2
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 61
+        y: 53
+        width: 27
+        height: 20
+      spriteId: a1def499fc5390d41a1cffc54e714e71
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 62
+        y: 53
+        width: 32
+        height: 18
+      spriteId: cbe9d678003d78c4ea08be4eca10e43f
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 39
+        y: 53
+        width: 57
+        height: 48
+      spriteId: fffe1dc15d0254e418c4306dd3514d98
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 38
+        y: 53
+        width: 57
+        height: 48
+      spriteId: 6ef87229c4c51c049bb18d714537f2cd
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 39
+        y: 53
+        width: 49
+        height: 48
+      spriteId: 5520dde911e1ee3469298133f537c2ba
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 53
+        width: 27
+        height: 48
+      spriteId: 2505b51a87bec1d479a2193462fd74a5
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 39
+        y: 53
+        width: 28
+        height: 20
+      spriteId: e49fa450c7c66ed4fb067d3e1f0904ad
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 53
+        width: 30
+        height: 18
+      spriteId: 93a8d32440f5b5843a2542f4511eaed4
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 53
+        width: 57
+        height: 48
+      spriteId: e2e045490b54f3845b524dc4f171bcd0
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 53
+        width: 56
+        height: 48
+      spriteId: 8b6bc1926ff60c548b1e7644c13a477e
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 53
+        width: 49
+        height: 48
+      spriteId: 92d1824f6ee2d5f4594ecf9d5afa2ad6
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 61
+        y: 53
+        width: 28
+        height: 48
+      spriteId: bcb2a4505a423eb44ab38ad3c4850e42
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 61
+        y: 53
+        width: 28
+        height: 19
+      spriteId: cfc8f0115cd071f47bed5b02066a4ff4
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 59
+        y: 53
+        width: 31
+        height: 21
+      spriteId: 27f264546b2fd024286d225534d3adee
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 59
+        y: 53
+        width: 25
+        height: 22
+      spriteId: 16ab99aef9580a14b8bd2017f7cd206f
+    - name: Sword_9_Template_Combo_Attack_1_And_2_Up_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 59
+        y: 53
+        width: 16
+        height: 35
+      spriteId: ef32d9e96ebb2c64aac8cc77e5c06c1a
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: Default
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}

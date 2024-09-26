@@ -1,0 +1,872 @@
+fileFormatVersion: 2
+guid: d3301fd783085be478f5d8d24966dcfb
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Sword_10_Template_Special_Attack_Down_Frame_0
+    originalName: 
+    pivot: {x: 0.47368422, y: -2.409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 413
+      width: 19
+      height: 22
+    spriteID: fcb794d374111bc4cb6fd6c0d26ac06e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 413}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_1
+    originalName: 
+    pivot: {x: 0.33333334, y: -2.409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 137
+      y: 383
+      width: 15
+      height: 22
+    spriteID: 89b95ad541adde54aa4a79da349a728e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 137, y: 383}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_2
+    originalName: 
+    pivot: {x: 0.2857143, y: -2.409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 383
+      width: 21
+      height: 22
+    spriteID: 6e5ab9a176401af49bf18c06f397f97f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 383}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_3
+    originalName: 
+    pivot: {x: 0.29411766, y: -2.409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 443
+      width: 17
+      height: 22
+    spriteID: bc4c1e909d7214c4cbafac6e3daa6a69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 443}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_4
+    originalName: 
+    pivot: {x: 0.7058824, y: -2.2083335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 30
+      width: 17
+      height: 24
+    spriteID: be2d380cbb7fbec418fac8980288a043
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 235, y: 30}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_5
+    originalName: 
+    pivot: {x: 0.9411765, y: -1.65625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 145
+      width: 17
+      height: 32
+    spriteID: 47b109966b7cb104e95557f7dab11e25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 145}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_6
+    originalName: 
+    pivot: {x: 1, y: -2.9444444}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 4
+      width: 27
+      height: 18
+    spriteID: 92ff83e07f1adc14a99e7f5a268edf13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 4}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_7
+    originalName: 
+    pivot: {x: 0.8518519, y: -0.33962265}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 212
+      width: 54
+      height: 53
+    spriteID: 1d04ecd4f73db954eb17a682b7bfd1b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 212}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_8
+    originalName: 
+    pivot: {x: 0.48936167, y: -0.27118644}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 78
+      width: 94
+      height: 59
+    spriteID: ff6c5395e1f891b42b2b227ae1377d0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 78}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_9
+    originalName: 
+    pivot: {x: 0.43529412, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 212
+      width: 85
+      height: 96
+    spriteID: a8140fdf527ca334b85d6019cae3b427
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 212}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 96
+      height: 96
+    spriteID: d5030549e3d558b4a9e96aa479fc3711
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_11
+    originalName: 
+    pivot: {x: 0.8518519, y: -0.33962265}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 273
+      width: 54
+      height: 53
+    spriteID: 1728adf8f5e93ca4e9633970ea4fcf06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 273}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_12
+    originalName: 
+    pivot: {x: 0.48936167, y: -0.27118644}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 145
+      width: 94
+      height: 59
+    spriteID: 2770486bb8e1e824c86b366b1d8b72f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 145}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_13
+    originalName: 
+    pivot: {x: 0.43529412, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 316
+      width: 85
+      height: 96
+    spriteID: 712307f3f26c0bd498ac4345e8a00a74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 316}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 108
+      width: 96
+      height: 96
+    spriteID: 484cdc1c0fdd6694a9db8da007397f66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 108}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.57746476}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 420
+      width: 96
+      height: 71
+    spriteID: 709b7273c73ff554a8949018e4fa6923
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 420}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.69696975}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 4
+      width: 96
+      height: 66
+    spriteID: 06ac8261acdb8ca4983d3b3c2dc644db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 4}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_17
+    originalName: 
+    pivot: {x: 0.923077, y: -1.2682927}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 334
+      width: 52
+      height: 41
+    spriteID: 0a58e8320f4b8c7439a88697e6f7e9c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 334}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_18
+    originalName: 
+    pivot: {x: 0.8, y: -2.4761906}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 137
+      y: 413
+      width: 10
+      height: 21
+    spriteID: 84b3832b0a3466f42aa9da7ffb4c3e56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 137, y: 413}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_19
+    originalName: 
+    pivot: {x: 0.8333333, y: -2.65}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 108
+      y: 473
+      width: 18
+      height: 20
+    spriteID: 3b7b11c4e62295b4d82464231e136725
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 108, y: 473}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_20
+    originalName: 
+    pivot: {x: 0.83870965, y: -2.5238097}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 78
+      width: 31
+      height: 21
+    spriteID: 809627d8ed8f271408ed3490f5660614
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 78}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_21
+    originalName: 
+    pivot: {x: 0.79999995, y: -2.409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 107
+      width: 25
+      height: 22
+    spriteID: cbeeb8f45c0238b499f383756f5564c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 107}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_22
+    originalName: 
+    pivot: {x: 0.6875, y: -1.5142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 145
+      width: 16
+      height: 35
+    spriteID: 52038877d5a542545bcf7c2daafc6bbc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 145}
+  - name: Sword_10_Template_Special_Attack_Down_Frame_23
+    originalName: 
+    pivot: {x: 0.6666667, y: -1.65625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 212
+      y: 30
+      width: 15
+      height: 32
+    spriteID: 812c35d13870d954599cc9a493b66c7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 212, y: 30}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1177384790
+    name: Sword_10_Template_Special_Attack_Down
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Sword_10_Template_Special_Attack_Down_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 53
+        width: 19
+        height: 22
+      spriteId: fcb794d374111bc4cb6fd6c0d26ac06e
+    - name: Sword_10_Template_Special_Attack_Down_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 59
+        y: 53
+        width: 15
+        height: 22
+      spriteId: 89b95ad541adde54aa4a79da349a728e
+    - name: Sword_10_Template_Special_Attack_Down_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 58
+        y: 53
+        width: 21
+        height: 22
+      spriteId: 6e5ab9a176401af49bf18c06f397f97f
+    - name: Sword_10_Template_Special_Attack_Down_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 59
+        y: 53
+        width: 17
+        height: 22
+      spriteId: bc4c1e909d7214c4cbafac6e3daa6a69
+    - name: Sword_10_Template_Special_Attack_Down_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 52
+        y: 53
+        width: 17
+        height: 24
+      spriteId: be2d380cbb7fbec418fac8980288a043
+    - name: Sword_10_Template_Special_Attack_Down_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 48
+        y: 53
+        width: 17
+        height: 32
+      spriteId: 47b109966b7cb104e95557f7dab11e25
+    - name: Sword_10_Template_Special_Attack_Down_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 37
+        y: 53
+        width: 27
+        height: 18
+      spriteId: 92ff83e07f1adc14a99e7f5a268edf13
+    - name: Sword_10_Template_Special_Attack_Down_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 18
+        width: 54
+        height: 53
+      spriteId: 1d04ecd4f73db954eb17a682b7bfd1b7
+    - name: Sword_10_Template_Special_Attack_Down_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 94
+        height: 59
+      spriteId: ff6c5395e1f891b42b2b227ae1377d0f
+    - name: Sword_10_Template_Special_Attack_Down_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 16
+        width: 85
+        height: 96
+      spriteId: a8140fdf527ca334b85d6019cae3b427
+    - name: Sword_10_Template_Special_Attack_Down_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 16
+        width: 96
+        height: 96
+      spriteId: d5030549e3d558b4a9e96aa479fc3711
+    - name: Sword_10_Template_Special_Attack_Down_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 18
+        width: 54
+        height: 53
+      spriteId: 1728adf8f5e93ca4e9633970ea4fcf06
+    - name: Sword_10_Template_Special_Attack_Down_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 16
+        width: 94
+        height: 59
+      spriteId: 2770486bb8e1e824c86b366b1d8b72f8
+    - name: Sword_10_Template_Special_Attack_Down_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 16
+        width: 85
+        height: 96
+      spriteId: 712307f3f26c0bd498ac4345e8a00a74
+    - name: Sword_10_Template_Special_Attack_Down_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 16
+        width: 96
+        height: 96
+      spriteId: 484cdc1c0fdd6694a9db8da007397f66
+    - name: Sword_10_Template_Special_Attack_Down_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 41
+        width: 96
+        height: 71
+      spriteId: 709b7273c73ff554a8949018e4fa6923
+    - name: Sword_10_Template_Special_Attack_Down_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 46
+        width: 96
+        height: 66
+      spriteId: 06ac8261acdb8ca4983d3b3c2dc644db
+    - name: Sword_10_Template_Special_Attack_Down_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 52
+        width: 52
+        height: 41
+      spriteId: 0a58e8320f4b8c7439a88697e6f7e9c5
+    - name: Sword_10_Template_Special_Attack_Down_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 56
+        y: 52
+        width: 10
+        height: 21
+      spriteId: 84b3832b0a3466f42aa9da7ffb4c3e56
+    - name: Sword_10_Template_Special_Attack_Down_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 49
+        y: 53
+        width: 18
+        height: 20
+      spriteId: 3b7b11c4e62295b4d82464231e136725
+    - name: Sword_10_Template_Special_Attack_Down_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 38
+        y: 53
+        width: 31
+        height: 21
+      spriteId: 809627d8ed8f271408ed3490f5660614
+    - name: Sword_10_Template_Special_Attack_Down_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 44
+        y: 53
+        width: 25
+        height: 22
+      spriteId: cbeeb8f45c0238b499f383756f5564c5
+    - name: Sword_10_Template_Special_Attack_Down_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 53
+        y: 53
+        width: 16
+        height: 35
+      spriteId: 52038877d5a542545bcf7c2daafc6bbc
+    - name: Sword_10_Template_Special_Attack_Down_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 54
+        y: 53
+        width: 15
+        height: 32
+      spriteId: 812c35d13870d954599cc9a493b66c7a
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: Default
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}

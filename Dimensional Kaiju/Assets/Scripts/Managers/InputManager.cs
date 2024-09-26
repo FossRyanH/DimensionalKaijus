@@ -29,10 +29,21 @@ public class InputManager : Singleton<InputManager>
             _gameInput.Player.Move.performed += (ctx) => playerInputs.HandleMovement(ctx.ReadValue<Vector2>());
             _gameInput.Player.Sprint.started += (ctx) => playerInputs.HandleSprint(true);
             _gameInput.Player.Sprint.canceled += (ctx) => playerInputs.HandleSprint(false);
+            _gameInput.Player.OpenMenu.performed += (ctx) => playerInputs.HandleOpenMenu();
             _actionMaps.Add(GameInputType.PlayerControl, _gameInput.Player);
             #endregion
         }
         _gameInput.Enable();
+    }
+
+    public void EnableInputType(GameInputType inputType)
+    {
+        _actionMaps[inputType].Enable();
+    }
+
+    public void DisableInputType(GameInputType inputType)
+    {
+        _actionMaps[inputType].Disable();
     }
 }
 

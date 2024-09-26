@@ -1,0 +1,812 @@
+fileFormatVersion: 2
+guid: dbad05ce474a4194f9b019cb750523b4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Bow_10_Template_Special_Attack_Down_Frame_0
+    originalName: 
+    pivot: {x: 0.5833334, y: -2.5238097}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 210
+      width: 12
+      height: 21
+    spriteID: b09d5a29befd8ee41903849caff3e442
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 210}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_1
+    originalName: 
+    pivot: {x: 0.5714286, y: -2.409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 168
+      width: 14
+      height: 22
+    spriteID: 4433b8fe0cc999c45803c5f558a71c51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 168}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_2
+    originalName: 
+    pivot: {x: 0.5882353, y: -2.2083335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 4
+      width: 17
+      height: 24
+    spriteID: c17a50a590341164aa66b4eea78ae916
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 4}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_3
+    originalName: 
+    pivot: {x: 0.5882353, y: -2.2083335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 36
+      width: 17
+      height: 24
+    spriteID: 78ae6c92b6b7a0c4895242b371a65aa0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 36}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_4
+    originalName: 
+    pivot: {x: 0.6111111, y: -2.5238097}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 181
+      width: 18
+      height: 21
+    spriteID: 02288fcca871a1041b14bdbf44e9b38a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 181}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_5
+    originalName: 
+    pivot: {x: 0.5555556, y: -2.5238097}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 181
+      width: 18
+      height: 21
+    spriteID: ab07f91e8d9467747ba43a4525bdd646
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 181}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -2.65}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 181
+      width: 18
+      height: 20
+    spriteID: b11c66495ca6f8f4482ee11856224166
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 181}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_7
+    originalName: 
+    pivot: {x: 0.5555556, y: -2.7894738}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 210
+      width: 18
+      height: 19
+    spriteID: a0c02140273305d4ea77042b6ad2810c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 210}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_8
+    originalName: 
+    pivot: {x: 0.5625, y: -2.65}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 35
+      width: 16
+      height: 20
+    spriteID: 8d69414751c072945b430056bfd82995
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 235, y: 35}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_9
+    originalName: 
+    pivot: {x: 0.5555556, y: -2.65}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 181
+      width: 18
+      height: 20
+    spriteID: f6eba2699f1a8824bac2862aa44fb346
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 181}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.8684211}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 69
+      width: 48
+      height: 38
+    spriteID: 09e699ec24107b84e8874133ffd296ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 69}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 69
+      width: 66
+      height: 48
+    spriteID: 7486229cf543480468e41ab2c6d22735
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 69}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.2631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 4
+      width: 84
+      height: 57
+    spriteID: baa6e91c6d086a84d916da30a0897fc4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 4}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 87
+      width: 106
+      height: 73
+    spriteID: c353940850b5b04448a34c09f6edc496
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 87}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_14
+    originalName: 
+    pivot: {x: 0.5555556, y: -2.65}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 181
+      width: 18
+      height: 20
+    spriteID: b43c86a60c1c49e42a9b3dab1206f4fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 181}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.8684211}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 125
+      width: 48
+      height: 38
+    spriteID: 20d31569eb56eb04f82e72a8e88e2e1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 125}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 125
+      width: 66
+      height: 48
+    spriteID: 770f37f46eb892943a9d34bc039cac62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 125}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.25862068}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 168
+      width: 84
+      height: 58
+    spriteID: 224485e823ac5ef409b0f661b53f7dad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 168}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 106
+      height: 75
+    spriteID: 247e22d2fd84a734e9546f02d6ee6025
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_19
+    originalName: 
+    pivot: {x: 0.6, y: -2.3043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 4
+      width: 15
+      height: 23
+    spriteID: e274e9e7ab2a824418965aab2109cee8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 235, y: 4}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_20
+    originalName: 
+    pivot: {x: 0.6428572, y: -2.409091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 198
+      width: 14
+      height: 22
+    spriteID: ea0e5334a4370f246b72032f411047dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 198}
+  - name: Bow_10_Template_Special_Attack_Down_Frame_21
+    originalName: 
+    pivot: {x: 0.6428572, y: -2.5238097}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 228
+      width: 14
+      height: 21
+    spriteID: 0730ff88273f39a4eb644936c78e6588
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 228}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1298955039
+    name: Bow_10_Template_Special_Attack_Down
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Bow_10_Template_Special_Attack_Down_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 57
+        y: 53
+        width: 12
+        height: 21
+      spriteId: b09d5a29befd8ee41903849caff3e442
+    - name: Bow_10_Template_Special_Attack_Down_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 56
+        y: 53
+        width: 14
+        height: 22
+      spriteId: 4433b8fe0cc999c45803c5f558a71c51
+    - name: Bow_10_Template_Special_Attack_Down_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 54
+        y: 53
+        width: 17
+        height: 24
+      spriteId: c17a50a590341164aa66b4eea78ae916
+    - name: Bow_10_Template_Special_Attack_Down_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 54
+        y: 53
+        width: 17
+        height: 24
+      spriteId: 78ae6c92b6b7a0c4895242b371a65aa0
+    - name: Bow_10_Template_Special_Attack_Down_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 53
+        y: 53
+        width: 18
+        height: 21
+      spriteId: 02288fcca871a1041b14bdbf44e9b38a
+    - name: Bow_10_Template_Special_Attack_Down_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 54
+        y: 53
+        width: 18
+        height: 21
+      spriteId: ab07f91e8d9467747ba43a4525bdd646
+    - name: Bow_10_Template_Special_Attack_Down_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 53
+        width: 18
+        height: 20
+      spriteId: b11c66495ca6f8f4482ee11856224166
+    - name: Bow_10_Template_Special_Attack_Down_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 54
+        y: 53
+        width: 18
+        height: 19
+      spriteId: a0c02140273305d4ea77042b6ad2810c
+    - name: Bow_10_Template_Special_Attack_Down_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 53
+        width: 16
+        height: 20
+      spriteId: 8d69414751c072945b430056bfd82995
+    - name: Bow_10_Template_Special_Attack_Down_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 54
+        y: 53
+        width: 18
+        height: 20
+      spriteId: f6eba2699f1a8824bac2862aa44fb346
+    - name: Bow_10_Template_Special_Attack_Down_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 33
+        width: 48
+        height: 38
+      spriteId: 09e699ec24107b84e8874133ffd296ef
+    - name: Bow_10_Template_Special_Attack_Down_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 24
+        width: 66
+        height: 48
+      spriteId: 7486229cf543480468e41ab2c6d22735
+    - name: Bow_10_Template_Special_Attack_Down_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 15
+        width: 84
+        height: 57
+      spriteId: baa6e91c6d086a84d916da30a0897fc4
+    - name: Bow_10_Template_Special_Attack_Down_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 0
+        width: 106
+        height: 73
+      spriteId: c353940850b5b04448a34c09f6edc496
+    - name: Bow_10_Template_Special_Attack_Down_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 54
+        y: 53
+        width: 18
+        height: 20
+      spriteId: b43c86a60c1c49e42a9b3dab1206f4fd
+    - name: Bow_10_Template_Special_Attack_Down_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 33
+        width: 48
+        height: 38
+      spriteId: 20d31569eb56eb04f82e72a8e88e2e1b
+    - name: Bow_10_Template_Special_Attack_Down_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 24
+        width: 66
+        height: 48
+      spriteId: 770f37f46eb892943a9d34bc039cac62
+    - name: Bow_10_Template_Special_Attack_Down_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 15
+        width: 84
+        height: 58
+      spriteId: 224485e823ac5ef409b0f661b53f7dad
+    - name: Bow_10_Template_Special_Attack_Down_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 0
+        width: 106
+        height: 75
+      spriteId: 247e22d2fd84a734e9546f02d6ee6025
+    - name: Bow_10_Template_Special_Attack_Down_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 53
+        width: 15
+        height: 23
+      spriteId: e274e9e7ab2a824418965aab2109cee8
+    - name: Bow_10_Template_Special_Attack_Down_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 53
+        width: 14
+        height: 22
+      spriteId: ea0e5334a4370f246b72032f411047dd
+    - name: Bow_10_Template_Special_Attack_Down_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 53
+        width: 14
+        height: 21
+      spriteId: 0730ff88273f39a4eb644936c78e6588
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: Default
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}
