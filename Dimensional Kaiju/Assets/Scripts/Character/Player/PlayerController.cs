@@ -9,13 +9,18 @@ public class PlayerController : StateMachine
     
     #region Components
     [Header("Componenets")]
-    public Rigidbody2D Rb2d { get; private set; }
-    [field : SerializeField] public PlayerVariablesSO PlayerVariables;
+    public CharacterController Controller { get; private set; }
+    [field : SerializeField] public PlayerVariablesSO PlayerVariables { get; private set; }
+    public Animator Animator { get; private set; }
     #endregion
 
     #region States
     public PlayerIdleState IdleState { get; private set; }
     public PlayerMoveState MoveState { get; private set; }
+    #endregion
+
+    #region Misc
+    public Vector2 InputDir { get; set; }
     #endregion
 
     public PlayerController()
@@ -26,11 +31,22 @@ public class PlayerController : StateMachine
 
     private void Awake()
     {
-        Rb2d = GetComponent<Rigidbody2D>();
+        Controller = GetComponent<CharacterController>();
+        Animator = GetComponent<Animator>();
     }
 
     void Start()
     {
         Initialize(IdleState);
+    }
+
+    protected override void FixedUpdate()
+    {
+        base.FixedUpdate();
+    }
+
+    protected override void Update()
+    {
+        base.Update();
     }
 }
