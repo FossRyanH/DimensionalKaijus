@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,10 +144,10 @@ TextureImporter:
       name: Death-Sheet_0
       rect:
         serializedVersion: 2
-        x: 22
+        x: 0
         y: 0
-        width: 21
-        height: 31
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: Death-Sheet_1
       rect:
         serializedVersion: 2
-        x: 86
+        x: 64
         y: 0
-        width: 23
-        height: 24
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: Death-Sheet_2
       rect:
         serializedVersion: 2
-        x: 150
+        x: 128
         y: 0
-        width: 30
-        height: 24
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: Death-Sheet_3
       rect:
         serializedVersion: 2
-        x: 214
+        x: 192
         y: 0
-        width: 36
-        height: 16
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: Death-Sheet_4
       rect:
         serializedVersion: 2
-        x: 278
+        x: 256
         y: 0
-        width: 37
-        height: 10
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: Death-Sheet_5
       rect:
         serializedVersion: 2
-        x: 342
+        x: 320
         y: 0
-        width: 37
-        height: 12
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3715b2e9f7cbd9940bb7d2bc21658bef
     internalID: 0
     vertices: []
     indices: 
@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Death-Sheet_0: 2560191268572409061
+      Death-Sheet_1: -1264829189228096833
+      Death-Sheet_2: -295645148974806884
+      Death-Sheet_3: -5445535467145450107
+      Death-Sheet_4: -8093336952383072624
+      Death-Sheet_5: -2312478708456275354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

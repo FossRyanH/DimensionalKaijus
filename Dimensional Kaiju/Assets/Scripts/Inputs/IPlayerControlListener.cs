@@ -6,4 +6,6 @@ public interface IPlayerControlListener
     void Interact();
     void OpenMenu();
     void Sprint(bool isSprinting);
+    void Attack(bool isAttacking);
+    void Skill(bool isUsingSkill);
 }

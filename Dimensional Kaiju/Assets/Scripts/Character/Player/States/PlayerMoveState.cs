@@ -2,10 +2,7 @@ using UnityEngine;
 
 public class PlayerMoveState : PlayerBaseState
 {
-    readonly int _runHash = Animator.StringToHash("RunTree");
-
-    Vector2 _smoothedInputDir;
-    float _smoothFactor = 0.2f;
+    readonly int _runHash = Animator.StringToHash("Run");
 
     public PlayerMoveState(PlayerController player) : base(player)
     {
@@ -21,24 +18,35 @@ public class PlayerMoveState : PlayerBaseState
 
     public override void Update()
     {
+        FacingDirection();
+
         if (_player.InputDir == Vector2.zero)
         {
             _player.ChangeState(_player.IdleState);
         }
 
         SetMovementSpeed();
-        _smoothedInputDir = Vector2.Lerp(_smoothedInputDir, _player.InputDir * _moveSpeed, _smoothFactor);
     }
 
     public override void PhysicsUpdate()
     {
-        UpdateMoveAnimationDirection(_player.InputDir, _runHash);
-        _player.Controller.Move(_smoothedInputDir * Time.fixedDeltaTime);
+        UpdateAnimationDirection(_player.InputDir, _runHash);
+        
+        _player.Rb2D.linearVelocity = _player.InputDir * _moveSpeed * Time.fixedDeltaTime;
+
+        if (_player.IsAttacking)
+        {
+            _player.ChangeState(_player.AttackState);
+        }
+        else if (_player.IsUsingSkill)
+        {
+            _player.ChangeState(_player.SwordSkill);
+        }
     }
 
     void SetMovementSpeed()
     {
-        if (_isSprinting)
+        if (_player.IsSprinting)
             _moveSpeed = _player.PlayerVariables.SprintSpeed;
         else
             _moveSpeed = _player.PlayerVariables.WalkSpeed;
