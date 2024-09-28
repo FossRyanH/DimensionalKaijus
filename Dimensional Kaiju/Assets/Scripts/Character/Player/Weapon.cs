@@ -3,19 +3,36 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    public static event Action<int> OnDealDamage;
     int _damageAmount = 2;
 
-    [SerializeField] Collider2D damageCollider;
+    [SerializeField] CapsuleCollider2D damageCollider;
 
-    void OnCollisionEnter2D(Collision2D other)
+    void Start()
     {
-        if (other.collider.CompareTag("Player")) { return; }
-
-        if (other is IDamagable damagable)
+        if (damageCollider == null)
         {
-            OnDealDamage?.Invoke(_damageAmount);
-            Debug.Log($"{other.gameObject.name} took damage!");
+            damageCollider = gameObject.AddComponent<CapsuleCollider2D>();
+            damageCollider.isTrigger = true;
+            damageCollider.size = new(0.3f, 1.3f);
+            damageCollider.enabled = false;
         }
+        damageCollider = GetComponent<CapsuleCollider2D>();
+    }
+
+    public void EnableCollider()
+    {
+        damageCollider.enabled = true;
+    }
+
+    public void DisableCollider()
+    {
+        damageCollider.enabled = false;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player")) { return; }
+        
+        other.gameObject.GetComponent<IDamagable>().TakeDamage(_damageAmount);
     }
 }
