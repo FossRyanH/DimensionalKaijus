@@ -17,7 +17,7 @@ public class Pot : MonoBehaviour, IDamagable
         if (_health <= 0)
         {
             StartCoroutine(Death());
-            Destroy(this.gameObject, deathDuration + 0.1f);
+            Destroy(this.gameObject, 1f);
             OnDeath?.Invoke();
         }
         Debug.Log($"{_health} remaining on {this.gameObject.name}");
