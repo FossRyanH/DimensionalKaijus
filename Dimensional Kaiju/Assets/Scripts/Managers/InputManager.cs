@@ -30,6 +30,8 @@ public class InputManager : Singleton<InputManager>
             _gameInput.Player.Sprint.started += (ctx) => playerInputs.HandleSprint(true);
             _gameInput.Player.Sprint.canceled += (ctx) => playerInputs.HandleSprint(false);
             _gameInput.Player.OpenMenu.performed += (ctx) => playerInputs.HandleOpenMenu();
+            _gameInput.Player.Attack.performed += (ctx) => playerInputs.HandleAttack(true);
+            _gameInput.Player.Skill.performed += (ctx) => playerInputs.HandleUseSkill(true);
             _actionMaps.Add(GameInputType.PlayerControl, _gameInput.Player);
             #endregion
         }
