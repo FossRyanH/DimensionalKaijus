@@ -38,10 +38,6 @@ public class PlayerMoveState : PlayerBaseState
         {
             _player.ChangeState(_player.AttackState);
         }
-        else if (_player.IsUsingSkill)
-        {
-            _player.ChangeState(_player.SwordSkill);
-        }
     }
 
     void SetMovementSpeed()
