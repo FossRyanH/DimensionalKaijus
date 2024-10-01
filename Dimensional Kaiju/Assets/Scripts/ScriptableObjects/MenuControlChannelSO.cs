@@ -1,16 +1,14 @@
 using UnityEngine;
+using System;
 
-public class MenuControlChannelSO : MonoBehaviour
+[CreateAssetMenu(fileName = "MenuControllChannel", menuName = "ScriptableObjects/Inputs/Menu Input", order = 1)]
+public class MenuControlChannelSO : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public event Action<Vector2> Move;
+    public event Action Accept, Cancel, CloseMenu;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public void HandleMovement(Vector2 movement) => Move?.Invoke(movement);
+    public void HandleAccept() => Accept?.Invoke();
+    public void HandleCancel() => Cancel?.Invoke();
+    public void HandleCloseMenu() => CloseMenu?.Invoke();
 }

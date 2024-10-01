@@ -31,6 +31,7 @@ public class PlayerBaseState : IState, IPlayerControlListener
         _player.PlayerInputs.Sprint += Sprint;
         _player.PlayerInputs.Attack += Attack;
         _player.PlayerInputs.Skill += Skill;
+        _player.PlayerInputs.OpenMenu += OpenMenu;
     }
 
         void DeregisterListeners()
@@ -39,6 +40,7 @@ public class PlayerBaseState : IState, IPlayerControlListener
         _player.PlayerInputs.Sprint -= Sprint;
         _player.PlayerInputs.Attack -= Attack;
         _player.PlayerInputs.Skill -= Skill;
+        _player.PlayerInputs.OpenMenu -= OpenMenu;
     }
 
     protected void FacingDirection()
@@ -86,7 +88,11 @@ public class PlayerBaseState : IState, IPlayerControlListener
         _player.InputDir.Normalize();
     }
 
-    public void OpenMenu() {}
+    public void OpenMenu() 
+    {
+        var menuController = GameObject.FindFirstObjectByType<MenuController>();
+        menuController.ShowMenu();
+    }
 
     public void Sprint(bool isSprinting) 
     {

@@ -7,6 +7,7 @@ public class InputManager : Singleton<InputManager>
 {
     #region SO Inputs
     [SerializeField] private PlayerControlChannelSO playerInputs;
+    [SerializeField] private MenuControlChannelSO menuControls;
     #endregion
     
     #region Inputs & Actions
@@ -33,6 +34,14 @@ public class InputManager : Singleton<InputManager>
             _gameInput.Player.Attack.performed += (ctx) => playerInputs.HandleAttack(true);
             _gameInput.Player.Skill.performed += (ctx) => playerInputs.HandleUseSkill(true);
             _actionMaps.Add(GameInputType.PlayerControl, _gameInput.Player);
+            #endregion
+            #region MenuControls
+            _gameInput.Menu.Accept.performed += (ctx) => menuControls.HandleAccept();
+            _gameInput.Menu.CloseMenu.performed += (ctx) => menuControls.HandleCloseMenu();
+            _actionMaps.Add(GameInputType.MenuControl, _gameInput.Menu);
+            #endregion
+            #region DialogueControls
+            _actionMaps.Add(GameInputType.DialogueControl, _gameInput.Dialogue);
             #endregion
         }
         _gameInput.Enable();
