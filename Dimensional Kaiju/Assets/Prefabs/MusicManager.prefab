@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9075231481540802408}
   - component: {fileID: 3904017282829332861}
+  - component: {fileID: 3395673351311635717}
   m_Layer: 0
   m_Name: MusicManager
   m_TagString: Untagged
@@ -129,3 +130,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3395673351311635717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081921846782217244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 243889fa7beff7a4e9acf0fdae50fff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <BattleMusic>k__BackingField: {fileID: 8300000, guid: 1cea08da4bea5594e9406f0763723a55, type: 3}
+  <MenuMusic>k__BackingField: {fileID: 8300000, guid: 85f1457cc0a38cf44bd9fc34c7b27353, type: 3}

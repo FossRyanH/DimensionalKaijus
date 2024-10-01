@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class GameManager : Singleton<GameManager>
@@ -29,6 +30,29 @@ public class GameManager : Singleton<GameManager>
             InputManager.Instance.DisableInputType(GameInputType.MenuControl);
             InputManager.Instance.DisableInputType(GameInputType.DialogueControl);
             InputManager.Instance.EnableInputType(GameInputType.PlayerControl);
+        }
+    }
+
+    public void HandleStateChangeMusic(GameState gameState)
+    {
+        CurrentGameState = gameState;
+
+        var forestMusic = FindFirstObjectByType<ForestMusicHandler>().forestMusicBGM;
+
+        if (gameState == GameState.OverWorld)
+        {
+            MusicManager.Instance.StopMusic();
+            MusicManager.Instance.PlayMusic(forestMusic, true);
+        }
+        else if (gameState == GameState.Battle)
+        {
+            MusicManager.Instance.StopMusic();
+            MusicManager.Instance.PlayMusic(MusicManager.Instance.BattleMusic, true);
+        }
+        else if (CurrentGameState == GameState.Menu)
+        {
+            MusicManager.Instance.StopMusic();
+            MusicManager.Instance.PlayMusic(MusicManager.Instance.MenuMusic, true);
         }
     }
 }

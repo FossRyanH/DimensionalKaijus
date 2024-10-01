@@ -5,6 +5,9 @@ public class MusicManager : Singleton<MusicManager>
     AudioSource _musicSource;
     AudioClip _audioClip;
 
+   [field: SerializeField] public AudioClip BattleMusic { get; set; }
+   [field: SerializeField] public AudioClip MenuMusic { get; set; }
+
     protected override void Initialize()
     {
         _musicSource = GetComponent<AudioSource>();
@@ -21,7 +24,7 @@ public class MusicManager : Singleton<MusicManager>
 
         _musicSource.clip = clip;
         _musicSource.loop = loopSetting;
-        _musicSource.Play();
+        _musicSource.PlayOneShot(_audioClip);
     }
 
     public void StopMusic()

@@ -9,4 +9,12 @@ public class PlayerVariablesSO : ScriptableObject
     [SerializeField] public float WalkSpeed = 150f;
     [SerializeField] public float SprintSpeed = 300f;
     #endregion
+
+    #region CombatRelated
+    [Header("Combat")]
+    [SerializeField] public int MaxHealth { get; set; }
+    [SerializeField] public int Strength { get; private set; }
+    [SerializeField] public int Defense { get; private set; }
+    [SerializeField] public int Agility { get; private set; }
+    #endregion
 }

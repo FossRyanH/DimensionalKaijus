@@ -84,20 +84,6 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "008bd371a08642d0a142996e45bee268"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "336ceedefa844929b7c42567cce01c0c"
-                },
-                "m_SlotId": 2
-            },
-            "m_InputSlot": {
-                "m_Node": {
                     "m_Id": "a28e99c19980408eaaa32e79c036b34a"
                 },
                 "m_SlotId": 0
@@ -140,7 +126,7 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "08947627ab984b60a598afca47ca360a"
+                    "m_Id": "008bd371a08642d0a142996e45bee268"
                 },
                 "m_SlotId": 0
             }
@@ -611,10 +597,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -868.0000610351563,
-            "y": 458.0000305175781,
+            "x": -944.0,
+            "y": 466.0,
             "width": 159.0,
-            "height": 34.00006103515625
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -845,7 +831,7 @@
     "m_SurfaceType": 0,
     "m_ZTestMode": 4,
     "m_ZWriteControl": 0,
-    "m_AlphaMode": 3,
+    "m_AlphaMode": 0,
     "m_RenderFace": 2,
     "m_AlphaClip": true,
     "m_CastShadows": true,
@@ -1244,7 +1230,7 @@
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 0.0,
+        "x": 0.28999999165534975,
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
